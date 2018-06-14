@@ -1,8 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import { render } from 'react-dom';
+import './index.scss';
 import App from './App';
+import { bgColorChange } from './js/bg';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('eHbSUflKL'));
+
+bgColorChange();
 registerServiceWorker();

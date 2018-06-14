@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "react-app",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react",
+    "prettier/standard"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier", "emotion"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "react/jsx-uses-vars": ["error"],
+    "no-console": "off",
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["warn", "single"],
+    "semi": ["error", "always"]
+  }
+}

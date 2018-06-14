@@ -1,0 +1,8 @@
+{
+	"presets": [
+		"airbnb",
+		"env",
+		"react",
+		"react-app"
+	]
+}

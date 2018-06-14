@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+  font-family: "KlavikaLight", Helvetica, sans-serif;
+  font-size: 1.8rem;
+  text-transform: lowercase;
+  line-height: 1.66;
+  font-weight: normal;
+  font-style: normal;
+
+  font-smoothing: antialiased;
+  color: #22292c;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main,
+audio,
+canvas,
+video,
+svg {
+  display: block;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a,
+.a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.4s ease-out;
+}
+
+a:hover,
+.a:hover {
+  cursor: pointer;
+}
+
+
+svg {
+  display: block;
+  transition: all 0.4s ease-out;
+}
+
+ul {
+  list-style: none;
+}
